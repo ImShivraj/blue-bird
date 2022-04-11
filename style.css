@@ -22,7 +22,7 @@ html {
   font-size: 82px;
   display: flex;
   justify-content: center;
-  margin-top: 220px;
+  margin-top: 200px;
   font-family: "Courgette", cursive;
   white-space: nowrap;
   margin-bottom: 0px;
@@ -35,8 +35,26 @@ html {
   font-family: "Bangers", cursive;
   font-size: 18px;
   letter-spacing: 10px;
+  margin-top: 5px;
 
 
+}
+.waitlist{
+  display: flex;
+  justify-content: center;
+}
+.waitlist a{
+  border: 2px solid #00ffff;
+  color: #00ffff;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 7px 33px;
+  font-family: 'Kanit', sans-serif;
+  margin-top: 22px;
+}
+.waitlist a:hover{
+  color: rgb(9, 131, 245);
+  border: 2px solid rgb(9, 131, 245);
 }
 
 @keyframes textclip {
